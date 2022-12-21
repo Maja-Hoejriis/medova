@@ -1,0 +1,364 @@
+/* stjernen gør alt nedenstående gælende for dette css dokument*/
+* {
+    font-family: modula-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0%;
+    color: #FFFFF4;
+}
+
+/* style af mobile-container */
+.mobile-container {
+    background-color: #C6A485;
+    color: #FFFFF4;
+}
+
+/* style af logo */
+.logo {
+    width: 100px;
+    margin-right: 100%;
+
+}
+
+/* style af navbar */
+.navbar {
+    background-color: #C6A485;
+    list-style-type: none;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+ul.navbar li a {
+    text-decoration: none;
+}
+
+/* style af main */
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    padding-left: 100px;
+}
+
+.introtekst {
+    width: 300px;
+    border: 5px solid #C6A485;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* style af knapper */
+.botton {
+    background-color: #E0C0A3;
+    border: none;
+    color:#FFFFF4;
+    padding: 15px 32px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    width: 25%;
+    border-radius: 4px;
+    border-style: inherit;
+    border-style: double;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.bottonunderside {
+    background-color: #E0C0A3;
+    border: none;
+    color:#FFFFF4;
+    padding: 15px 32px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    width: 25%;
+    border-radius: 4px;
+    border-style: inherit;
+    border-style: double;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+
+/* style af mobile-container */
+@media screen and (max-width: 660px) {
+    
+
+.mobile-container {
+    max-width: 100%;
+}
+
+/* style af main-forside */
+main {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+
+/* style af forside billede*/
+.forside-billede img {
+        width: 60%;
+        margin-bottom: 4%;
+        margin-left: 0%;
+        margin-top: 6%;
+    }
+
+section.forside-billede {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+
+h1 {
+    margin-left: 8%;
+}
+
+.forside-artikel {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+    }
+    
+section.forsidetekst {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+/* style af main-underside */    
+h3 {
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        font-size: 35px;
+    }
+
+/*medova*/
+p.underside-medovatekst {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+} 
+p.underside-medova-tekst {
+    margin-right: 24%;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+p.underside-medovatekst {
+    font-size: x-large;
+}
+    
+/*bjergblomst*/
+p.underside-bjergblomsttekst {
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+p.underside-bjergblomst-tekst {
+        padding-left: 29%;
+        padding-right: 29%;
+        margin-top: 5%
+    }  
+    
+p.underside-bjergblomsttekst {
+        font-size: x-large;
+    }
+
+/*mint matcha*/
+p.underside-mintmatcha {
+        text-align: center;
+        margin: 5%;
+        margin-bottom: 5%;
+    }
+  
+p.underside-mintmatcha-tekst {
+        margin-right: 20%;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+
+p.underside-mintmatcha-tekst {
+    padding-left: 8%;
+    padding-right: 7%;
+    margin-top: 5%;
+
+}
+
+p.underside-mintmatcha {
+    font-size: x-large;
+}
+
+
+h2 {
+    margin-bottom: 10%;
+    font-size: xx-large;
+    padding: 5%;
+}
+
+/* style af knap-underside */
+.botton-section {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+/* style af infographic-underside */
+.section.infographic {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* style af footer-underside */
+footer {
+        display: flex;
+        flex-direction: row;
+        text-align: justify;
+        align-items: center;
+        justify-content: center;
+    }
+    
+.footer-box {
+        padding: 4.5%;
+    }
+
+  }
+
+
+/*--------------------------------NYT BREAK POINT---------------------------------------*/
+
+@media only screen and (min-width: 1100px) {
+/* style af desktop*/
+
+/* style af main forside*/
+   
+img.forside-billede1 {
+        margin-top: 20%;
+    }
+    
+a.botton {
+        margin: 22%;
+    }
+
+img.forside-billede1 {
+        width: 107%;
+        margin-left: 90%;
+    }
+
+/* style underside*/
+
+/*style overskrifter*/
+h3 {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    font-size: 35px;
+}
+
+/*medova*/
+
+img.mockupmedova {
+        width: 120%;
+        margin-top: 35%;
+        margin-left: 182%;
+    }
+
+
+p.underside-medova-tekst {
+        margin-right: 94%;
+        margin-left: -73%;
+        margin-top: 38%;
+    }
+
+/*bjergblomst*/
+img.mockupbjergblomst {
+        width: 120%;
+        margin-top: 46%;
+        margin-left: 170%;
+    }
+
+p.underside-bjergblomst-tekst {
+        margin-right: 50%;
+        margin-left: 8%;
+        margin-top: -30%;
+    }   
+
+
+/*mintmatcha*/
+img.mockupmintmatcha {
+        width: 120%;
+        margin-top: -49%;
+        margin-left: 227%;
+    }
+
+p.underside-mintmatcha-tekst {
+        margin-right: 80%;
+        margin-left: -37%;
+        margin-top: -7%;
+    }
+
+
+/* style af knap underside*/
+
+a.bottonunderside {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        margin-left: -700%;
+        margin-bottom: 66%;
+        margin-top: 200%;
+    }
+
+h2 {
+        font-size: xxx-large;
+    }
+
+img.infographic-iste {
+        width: 80%;
+        margin-top: 5%;
+    }    
+
+/* style af footer */
+
+.footer-box {
+    padding: 4.5%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+}
